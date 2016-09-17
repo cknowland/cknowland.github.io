@@ -8,15 +8,19 @@
     width:auto;
 }
 #img{
-    width:1000px;
+    height:250px;
+    width:350px;
 }
 #taskbar_button{
     font:Arial;
-    font-style:bold;
+    font-style:oblique;
     font-size:14px;
     padding-top:3px;
     padding-bottom:3px;
     padding-right:10px;
     padding-left:10px;
-    text-align:auto;    
+    text-align:auto;
+}
+#body{
+    background-color:gray;
 }
