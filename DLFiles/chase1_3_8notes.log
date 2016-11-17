@@ -1,0 +1,50 @@
+# IPython log file
+
+a=1
+b=3
+print("hell", a)
+print("hell" + a)
+print("hell" + str(a))
+print("hello " + str(a))
+print("Hello Henyans " + str(b))
+b= 12
+print ("Hello Henyans " = str(b))
+d=69
+print ("Hello Henyans "= str(d))
+print("Hello Henyans" + str(d))
+c= 14
+c=14
+print("Hello Henyans" + str(c))
+print("Hello Henyan" + str(c))
+goguess
+goguess_2
+print("Hello Henyan" + str(c))
+%cd "C:\Users\bobcats\Desktop\EricSpencer Log"
+%cd "C:\Users\bobcats"
+%cd "C:\Users\bobcats\Desktop"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%cd "C:\Users\bobcats\Desktop"
+%cd "C:\Users\bobcats"
+%cd "C:\Users\bobcats\Desktop\EricSpencer Log"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%cd "C:\Users\bobcats"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%cd "C:\Users\bobcats\Desktop\EricSpencer Log"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%cd "C:\Users\bobcats\AppData\Local\Temp\Temp1_1.3.8.zip\1.3.8"
+%cd "C:\Users\bobcats\Desktop"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360\ChaseHenry1_3_7"
+%run "C:\Users\bobcats\Desktop\Autodesk 360\ChaseHenry1_3_7\1.3.7Chase.py"
+matches([1,2,3], [4,2,3])
+#[Out]# 2
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.8Chase.py"
+goguess()
+%logstop
+# Fri, 04 Nov 2016 11:19:46
+#We restarted the kernal, so it didn't log the goguess() funciton we made
+# Fri, 04 Nov 2016 11:19:49
+%lostop
+# Fri, 04 Nov 2016 11:19:53
+%logstop

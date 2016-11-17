@@ -1,0 +1,66 @@
+# IPython log file
+
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%logstop
+# Thu, 03 Nov 2016 10:17:30
+#Chase 1.3.7 log 3
+# Thu, 03 Nov 2016 10:18:14
+#11. b)
+# Thu, 03 Nov 2016 10:22:11
+[1,2,3,4] in [1,2,3,4,5]
+#[Out]# False
+# Thu, 03 Nov 2016 10:32:50
+def matches(ticket, winners):
+    x=abs(len(ticket))-len(winners)
+    return x
+
+# Thu, 03 Nov 2016 10:33:03
+matches([1,2,3,4,5,6], [1,2,3])
+#[Out]# 3
+# Thu, 03 Nov 2016 10:37:34
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Thu, 03 Nov 2016 10:38:42
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Thu, 03 Nov 2016 10:39:12
+matches([1,5,13,23,12], [1,2,9,12,28])
+#[Out]# 2
+# Thu, 03 Nov 2016 10:39:27
+#11. c)
+# Thu, 03 Nov 2016 10:42:45
+def report(guess, secret)
+# Thu, 03 Nov 2016 10:43:49
+def report(guess, secret):
+    matching=0
+    y=0
+    for choices in secret:
+        if guess[y] in secret[y]
+# Thu, 03 Nov 2016 10:44:42
+def report(guess, secret):
+    matching=0
+    y=0
+    for choices in secret:
+        if guess[y] in secret[y]:
+            matching+=1
+        else:
+            matching+=0
+        y+=1
+    return [matching, len(secret)-matching]
+
+# Thu, 03 Nov 2016 10:45:18
+guess = ['r', 'r', 'y', 'b','g']
+# Thu, 03 Nov 2016 10:45:32
+secret = ['r', 'y', 'b', 'g', 'g']
+# Thu, 03 Nov 2016 10:45:41
+report(guess, secret)
+#[Out]# [2, 3]
+# Thu, 03 Nov 2016 10:46:50
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Thu, 03 Nov 2016 10:47:00
+report(guess, secret)
+#[Out]# [2, 3]
+# Thu, 03 Nov 2016 10:47:20
+guess = ['r', 'r', 'b', 'b','g']
+# Thu, 03 Nov 2016 10:47:21
+report(guess, secret)
+#[Out]# [3, 2]
+# Thu, 03 Nov 2016 10:47:32
+#All Done!!
+# Thu, 03 Nov 2016 10:47:36
+%logstop

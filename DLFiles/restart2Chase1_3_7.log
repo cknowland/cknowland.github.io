@@ -1,0 +1,100 @@
+# IPython log file
+
+%logstart -ort 6EricGuoSpencerLayne1_3_8.log
+# Eric Guo Spencer Layne1.3.8 IPython log
+%cd "C:/Users/bobcats/Desktop/EricSpencer Log"
+%cd "C:/Users/bobcats/Desktop/EricSpencer Log"
+%cd "C:\Users\bobcats\Desktop\Autodesk 360"
+%logstart -ort restart2Chase1_3_7.log
+%logstop
+# Wed, 02 Nov 2016 10:35:17
+def hangman_display(guessed, secret):
+    secret_list=list(secret)
+    alphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    n=0
+    while secret[n] > len(secret):
+        if secret in alphabet:
+            print("-")
+        elif secret in " ":
+            print(" ")
+        else:
+            print("#err#")
+        n+=1
+        
+# Wed, 02 Nov 2016 10:35:59
+hangman_display("hi", "hello")
+# Wed, 02 Nov 2016 10:37:27
+#11. a)
+# Wed, 02 Nov 2016 10:37:34
+#(continued)
+# Wed, 02 Nov 2016 10:37:54
+teststr = "hello"
+# Wed, 02 Nov 2016 10:37:58
+teststr
+#[Out]# 'hello'
+# Wed, 02 Nov 2016 10:38:09
+list(teststr)
+#[Out]# ['h', 'e', 'l', 'l', 'o']
+# Wed, 02 Nov 2016 10:38:28
+string(teststr)
+# Wed, 02 Nov 2016 10:38:33
+str(teststr)
+#[Out]# 'hello'
+# Wed, 02 Nov 2016 10:38:41
+len(teststr)
+#[Out]# 5
+# Wed, 02 Nov 2016 10:39:13
+teststr=
+# Wed, 02 Nov 2016 10:39:54
+teststr="dog cat"
+# Wed, 02 Nov 2016 10:39:58
+teststr
+#[Out]# 'dog cat'
+# Wed, 02 Nov 2016 10:40:37
+list(teststr)
+#[Out]# ['d', 'o', 'g', ' ', 'c', 'a', 't']
+# Wed, 02 Nov 2016 10:48:33
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 10:48:48
+hangman_display("abc","abcde")
+# Wed, 02 Nov 2016 10:49:07
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 10:49:09
+hangman_display("abc","abcde")
+#[Out]# "['a', 'b', 'c', '-', '-']"
+# Wed, 02 Nov 2016 10:49:36
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 10:49:38
+hangman_display("abc","abcde")
+#[Out]# "['a', 'b', 'c', '-', '-']"
+# Wed, 02 Nov 2016 10:51:20
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 10:51:22
+hangman_display("abc","abcde")
+#[Out]# 'abc--'
+# Wed, 02 Nov 2016 10:51:57
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 10:51:59
+hangman_display("abc","abcde")
+#[Out]# 'abc--'
+# Wed, 02 Nov 2016 10:52:25
+hangman_display("abc","ab c de")
+#[Out]# 'ab c --'
+# Wed, 02 Nov 2016 10:53:09
+hangman_display("hen","hello henyans!!")
+#[Out]# 'he--- hen--n-  '
+# Wed, 02 Nov 2016 10:58:32
+hangman_display("Hwesidn","hello henyans!!")
+#[Out]# '-e--- -en--ns  '
+# Wed, 02 Nov 2016 11:09:06
+%run "C:\Users\bobcats\Desktop\Autodesk 360\1.3.7Chase.py"# Wed, 02 Nov 2016 11:09:10
+hangman_display("Hwesidn","hello henyans!!")
+# Wed, 02 Nov 2016 11:10:36
+hi=[1,2,3,4]
+# Wed, 02 Nov 2016 11:10:42
+hi[0]
+#[Out]# 1
+# Wed, 02 Nov 2016 11:12:34
+hangman_display("Hwesidn","hello henyans!!")
+# Wed, 02 Nov 2016 11:13:47
+y=3
+# Wed, 02 Nov 2016 11:13:51
+hi[y]
+#[Out]# 4
+# Wed, 02 Nov 2016 11:27:54
+%logstop
