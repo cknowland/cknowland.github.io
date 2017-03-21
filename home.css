@@ -1,0 +1,29 @@
+.navbar {
+    font-family: Bad Script;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: Bad Script;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.womancookie {
+    width: 100px;
+    height: 200px;
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+#womancook {
+    margin: 30px 200px 10px 200px;
+    width: 500px;
+    height: 200px;
+}
+
+body {
+    overflow-y: scroll;
+}

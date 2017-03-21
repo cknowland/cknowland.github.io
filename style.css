@@ -20,11 +20,7 @@
     font:Arial;
     font-style:oblique;
     font-size:14px;
-    padding-top:3px;
-    padding-bottom:3px;
-    padding-right:10px;
-    padding-left:10px;
-    text-align:auto;
+    padding: 3px 10px;
 }
 #body{
     background-color:gray;
@@ -34,4 +30,7 @@
     font-style:normal;
     font-size:30px;
     margin:40px;
+}
+h1 {
+    font-family: Georgia, bold, 22px;
 }
